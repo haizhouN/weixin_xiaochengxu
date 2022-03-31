@@ -1,0 +1,20 @@
+{
+  "pages":[
+
+    
+    "pages/default/default",
+    "pages/playmusic/playmusic",
+    "pages/winpage/winpage",
+    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "涵涵识曲-第1首",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

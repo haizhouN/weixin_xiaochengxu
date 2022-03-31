@@ -1,0 +1,59 @@
+/* pages/playmusic/playmusic.wxss */
+.name{
+  background: #efefef;
+  width: 1.5em;
+  height: 1.5em;
+  float: left;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  margin-top: 20rpx;
+  margin-right: 6rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  color: #111;
+  cursor: pointer;
+}
+.content{
+  border: 1rpx solid #aaa;
+  margin-top: 150rpx;
+  flex-direction: row;
+
+}
+.btn{
+  background: #efefef;
+  width: 150rpx;
+  height: 2em;
+  float: left;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  margin-right: 2%;
+  margin-bottom: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+}
+.tip{
+  margin-left: 30%;
+  padding-top: 14rpx;
+  height: 1.5em;
+  line-height: 1.5em;
+  display: inline-block;
+}
+.footer{
+
+bottom: 10;
+}
+.sos{
+  display: inline-block;
+  background: #b0b0b0;
+  text-align: center;
+  color: #fff;
+  left:25%;
+  margin: 10 10rpx 10rpx 10rpx;
+
+}
+.v{
+  margin-left: 15%;
+}
+.sos:hover{
+    background: #f4a460;
+}

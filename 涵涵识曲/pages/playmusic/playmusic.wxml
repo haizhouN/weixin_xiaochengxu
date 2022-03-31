@@ -1,0 +1,24 @@
+<view>
+  <view class="v">
+  <audio src="{{songs[nowindex].src}} " name="你猜" author="我也不知道" controls></audio>
+  </view>
+  <view class="tip">点击错误的字可以清除哦</view>
+  <view class="tip">
+    <input type="text" bindtap="claretext" id="{{index}}" wx:for="{{namelength}}" class="name" disabled="true" value="{{title[index]}}" />
+  </view>
+
+  <view class="content">
+    <view bindtap="getitem" wx:for="{{songs[nowindex].keyword}}" id="{{index}}" class="btn">"{{item}}"</view>
+    
+  </view>
+  <view class="footer">
+    <text class="tip">太难了，请求好友帮助</text>
+  </view>
+  <view class="footer">
+    <button class="sos" open-type="share">sos</button>
+  </view>
+
+
+
+
+</view>
